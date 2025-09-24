@@ -1,3 +1,22 @@
 body {
     background-color: hsl(30, 54%, 90%);
+    margin: 0 auto;
+}
+
+.recipe-container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+   
+}
+
+.contents {
+   padding: 0px 20px 0px 10px;
+}
+
+.omelette {
+    max-width: 23.4rem;
 }
