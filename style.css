@@ -13,10 +13,46 @@ body {
    
 }
 
+.recipe {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .contents {
-   padding: 0px 20px 0px 10px;
+   padding: 0px 30px 0px 30px;
 }
 
 .omelette {
     max-width: 23.4rem;
 }
+.description {
+    line-height: 1.5;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+}
+.preperation-container {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    padding: 5px 0px 10px 0px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.preperation {
+    margin-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+
+.time {
+   margin: 0px 40px 10px 20px;
+   color: hsl(30, 10%, 34%);
+ 
+}
+
