@@ -49,6 +49,9 @@ body {
     color: hsl(332, 51%, 32%);
 }
 
+.list {
+    padding-left: 20px;
+}
 
 .time {
    margin: 0px 40px 10px 20px;
