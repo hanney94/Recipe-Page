@@ -136,30 +136,62 @@ li {
 }
 
 .table {
-    display: flex;
     border-collapse: collapse;
+    border-spacing: 40px 15px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    width: 100%;
 }
 td {
     border-bottom: 1px solid hsl(30, 14%, 88%);
-    text-align: center;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    padding: 20px 40px 20px 40px;
+    padding: 15px 0;
 }
-
-
 
 
 td:first-child {
     color: hsl(30, 10%, 34%);
+    text-align: left;
+
 }
 td:last-child {
     color: #7b3f00; /* brown tone */
     font-weight: bold;
+    text-align: start;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .recipe-container {
+        margin-top: 40px;
+        max-width: 730px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+.omelette-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    .omelette{ 
+        max-width: 700px;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+   .table {
+    border-spacing: 40px 5px;
+   }
+
+   td {
+    padding: 10px;
+   }
+
 }
