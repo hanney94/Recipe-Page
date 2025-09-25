@@ -79,7 +79,7 @@ li {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: hsl(30, 10%, 34%);;
+    color: hsl(30, 10%, 34%);
     margin-bottom: 30px;
 }
 
@@ -112,4 +112,54 @@ li {
 
 .instructions-container {
     border-bottom: 1px solid hsl(30, 14%, 88%);
+}
+
+.nutrition-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nutrition {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color :hsl(14, 45%, 36%);
+
+}
+
+.table-p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+}
+
+.table {
+    display: flex;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+td {
+    border-bottom: 1px solid hsl(30, 14%, 88%);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 40px 20px 40px;
+}
+
+
+
+
+td:first-child {
+    color: hsl(30, 10%, 34%);
+}
+td:last-child {
+    color: #7b3f00; /* brown tone */
+    font-weight: bold;
 }
